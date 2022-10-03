@@ -37,7 +37,7 @@ const taskNode = (obj) => {
 
   newTask.dataset.index = obj.index;
   newTask.dataset.completed = obj.completed;
-  newTask.classList.add('make-flex');
+  newTask.classList.add('make-flex', 'add-padding');
 
   taskController.addEventListener('click', () => {
     removeNode(obj.index, newTask);

@@ -17,26 +17,23 @@
 .make-flex {
   display: flex;
   justify-content: space-between;
-  height: 3rem;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 #add-new-task {
-  height: 3rem;
   width: 100%;
-  padding-left: 1rem;
-  padding-right: 1rem;
   border: none;
   font-style: italic;
 }
 
 #app-label-tag {
-  height: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.add-padding {
+  height: 3rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
